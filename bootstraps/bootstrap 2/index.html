@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Mocks - Step Two</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Messages <span class="badge badge-success">4</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h2>Dashboard:</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Team</th>
+          <th>All Star</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Steph</td>
+          <td>Warriors</td>
+          <td>Yes</td>
+          <td><button class="btn btn-danger btn-sm">&times;</button></td>
+        </tr>
+        <tr>
+          <td>Lebron</td>
+          <td>Cavaliers</td>
+          <td>Yes</td>
+          <td><button class="btn btn-danger btn-sm">&times;</button></td>
+        </tr>
+        <tr>
+          <td>Dwyane</td>
+          <td>Heat</td>
+          <td>Yes</td>
+          <td><button class="btn btn-danger btn-sm">&times;</button></td>
+        </tr>
+        <tr>
+          <td>Kobe</td>
+          <td>Lakers</td>
+          <td>Yes <span class="badge badge-warning">MVP</span></td>
+          <td><button class="btn btn-danger btn-sm">&times;</button></td>
+        </tr>
+        <tr>
+          <td>Isaiah</td>
+          <td>Celtics</td>
+          <td>Yes <span class="badge badge-success">Rookie</span></td>
+          <td><button class="btn btn-danger btn-sm">&times;</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Todos:</h3>
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-success">Feel good about Bootstrap</li>
+      <li class="list-group-item list-group-item-info">Feel informed about Bootstrap</li>
+      <li class="list-group-item list-group-item-primary">Feel minimal about Bootstrap</li>
+      <li class="list-group-item list-group-item-warning">Maybe I should read the docs...</li>
+      <li class="list-group-item list-group-item-danger">Deeper zone</li>
+      <li class="list-group-item list-group-item-danger">I really should read the docs...</li>
+    </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
